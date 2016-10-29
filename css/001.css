@@ -18,22 +18,23 @@ body{
 a{
   /*background-color: #1C3A13;*/
   /*border: 1px solid #1C3A13;*/
-  color: #ffffff;
+  /*color: #ffffff;*/
   display: inline-block;
   padding-bottom: 2%;
 
 }
 #signUp{
-  background-color: #A4D4B4;
+  /*background-color: #A4D4B4;*/
   text-align: center;
   font-size: 3em;
   text-decoration: none;
   border-radius: 3%;
   padding-bottom: 1%;
+  padding-right: 2%;
   margin-bottom: 5%;
 }
 #logIn{
-  background-color: #A4D4B4;
+  /*background-color: #A4D4B4;*/
   text-align: center;
   font-size: 3em;
   text-decoration: none;
