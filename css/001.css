@@ -37,6 +37,10 @@ a{
 a:hover{
   color: #1C3A13;
 }
+a:active{
+  color: red;
+}
+
 #signUp{
   text-align: center;
   width: 48%;
