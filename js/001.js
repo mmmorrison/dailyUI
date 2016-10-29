@@ -1,4 +1,4 @@
-document.write("test")
-$(document).ready(function() {
- console.log("jQuery is wired up");
-})
+// document.write("test")
+// $(document).ready(function() {
+//  console.log("jQuery is wired up");
+// })
