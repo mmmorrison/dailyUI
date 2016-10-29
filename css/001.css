@@ -8,7 +8,7 @@ body{
   background-color: #3B1C32;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
   margin: 0 auto;
-  border-radius: 2%;
+  border-radius: 5px;
   max-width: 60%;
   padding: 40px;
   margin: 40px auto;
@@ -26,7 +26,7 @@ a{
 #signUp{
   /*background-color: #A4D4B4;*/
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: none;
   border-radius: 3%;
   padding-bottom: 1%;
@@ -36,9 +36,12 @@ a{
 #logIn{
   /*background-color: #A4D4B4;*/
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: none;
   border-radius: 3%;
   padding-bottom: 1%;
   margin-bottom: 5%;
+}
+input{
+  display: block;;
 }
