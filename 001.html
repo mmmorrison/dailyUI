@@ -13,18 +13,36 @@
 
     <div class="formDiv">
 
-      <div class="links">
-        <a href="#signUp"id='signUp'>Sign Up</a>
-        <a href="#logIn" id=logIn>Log In</a>
-      </div>
+        <div class="links">
+            <a href="#new" id='signUp'>Sign Up</a>
+            <a href="#welcome" id=logIn>Log In</a>
+        </div>
 
-        <form action="/" method="post">
-            <input type="text" name="firstName" id="first" placeholder="First Name">
-            <input type="text" name="lastName" id="last" placeholder="Last Name">
-            <input type="email" name="email" id="email" placeholder="Email">
-            <input type="password" name="password" placeholder="Password">
-            <input type="button" name="submit" value="Submit">
-        </form>
+
+        <div id="new">
+            <h1>Joining is free.</h1>
+        </div>
+
+        <div id="welcome">
+            <h1>Welcome back.</h1>
+        </div>
+
+        <div class="new">
+            <form action="/" method="post">
+                <input type="text" name="firstName" id="first" placeholder="First Name">
+                <input type="text" name="lastName" id="last" placeholder="Last Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="button" name="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="old">
+            <form action="/" method="post">
+
+            </form>
+        </div>
+
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
