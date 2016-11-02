@@ -1,0 +1,13 @@
+body{
+  box-sizing: border-box;
+  font-family: monospace;
+  color: #DDDFE6;
+}
+
+img{
+  /*height: 5%;*/
+  width: 5%;
+}
+ul{
+  list-style: none;
+}
