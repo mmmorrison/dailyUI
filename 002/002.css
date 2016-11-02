@@ -5,9 +5,15 @@ body{
 }
 
 img{
-  /*height: 5%;*/
   width: 5%;
 }
 ul{
   list-style: none;
+}
+h5{
+  float: left;
+  color: #696969;
+}
+h2{
+  color: #696969;
 }
