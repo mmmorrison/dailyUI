@@ -23,6 +23,8 @@ ul{
 
 h2{
   color: #696969;
+  margin-left: 6%;
+  font-size: .7em;
 }
 
 h5{
@@ -30,16 +32,18 @@ h5{
   color: #696969;
 }
 .money{
-  margin-left: 15%;
+  margin-left: 12%;
   position: relative;
 }
 
 .pictures{
-  width: 40%;
+  width: 50%;
   float: left;
 }
 .card{
   width: 40%;
-  border: 2px solid red;
   display: inline-block;
+}
+input{
+  margin-top: 5%;
 }
