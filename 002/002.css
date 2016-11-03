@@ -1,7 +1,16 @@
 body{
   box-sizing: border-box;
   font-family: monospace;
-  color: #DDDFE6;
+  color: #696969;
+  background: linear-gradient(100deg, #7A3E48, #EECD86);
+}
+
+.order{
+  background: #ffffff;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
 }
 
 img{
@@ -10,10 +19,15 @@ img{
 ul{
   list-style: none;
 }
-h5{
-  float: left;
-  color: #696969;
-}
+
 h2{
   color: #696969;
+}
+
+h5{
+  text-align: left;
+  color: #696969;
+}
+h4{
+  margin-left: 3%;
 }
