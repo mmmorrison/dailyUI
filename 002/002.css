@@ -10,11 +10,12 @@ body{
   border-radius: 5px;
   width: 50%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
+  overflow: auto;
 }
 
 img{
-  width: 5%;
+  width: 10%;
 }
 ul{
   list-style: none;
@@ -28,6 +29,17 @@ h5{
   text-align: left;
   color: #696969;
 }
-h4{
-  margin-left: 3%;
+.money{
+  margin-left: 15%;
+  position: relative;
+}
+
+.pictures{
+  width: 40%;
+  float: left;
+}
+.card{
+  width: 40%;
+  border: 2px solid red;
+  display: inline-block;
 }
