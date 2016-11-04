@@ -2,11 +2,76 @@ body{
   font-family: 'Roboto', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
-.navbar-default{
+a.navbar-brand{
+  font-family: 'Shrikhand', cursive;
+  font-size: 3em;
+}
+.navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
 }
-h1{
-  font-family: 'Shrikhand', cursive;
+.navbar-default .navbar-brand {
   color: #ADEEE3;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #86DEB7;
+}
+.navbar-default .navbar-text {
+  color: #50723C;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #50723C;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #86DEB7;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #86DEB7;
+  background-color: #63B995;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #86DEB7;
+  background-color: #63B995;
+}
+.navbar-default .navbar-toggle {
+  border-color: #63B995;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #63B995;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #50723C;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #50723C;
+}
+.navbar-default .navbar-link {
+  color: #50723C;
+}
+.navbar-default .navbar-link:hover {
+  color: #86DEB7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #50723C;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #86DEB7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #86DEB7;
+    background-color: #63B995;
+  }
 }
