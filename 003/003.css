@@ -14,9 +14,6 @@ ul{
   list-style: none;
   /*display: inline-block;*/
 }
-a{
-  display: inline;
-}
 .brand{
   border: 2px solid red;
 }
@@ -27,5 +24,15 @@ a{
 }
 .links{
   border: 2px solid purple;
-  padding: 2% 0 1% 0;
+  padding: 2% 0 2% 0;
+}
+a{
+  border: 1px solid blue;
+  margin: 0 auto;
+  float: left;
+  background: orange;
+  text-decoration: none;
+  margin-right: 10%;
+  padding-right: 5%;
+
 }
