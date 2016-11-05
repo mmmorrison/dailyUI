@@ -2,7 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
-a.navbar-brand{
+a.navbar-brand, .quandry{
   font-family: 'Shrikhand', cursive;
   font-size: 3em;
 }
@@ -103,4 +103,13 @@ i:hover{
 }
 #log{
   margin-right: 28px;
+}
+.first{
+  width: 40%;
+  float: left;
+  margin-right: 20%;
+}
+.second{
+  width: 40%;
+  float: left;
 }
