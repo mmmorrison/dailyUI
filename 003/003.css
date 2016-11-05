@@ -12,6 +12,7 @@ a.navbar-brand{
 }
 .navbar-default .navbar-brand {
   color: #ADEEE3;
+  margin-left: 15px !important;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -32,6 +33,7 @@ a.navbar-brand{
 .navbar-default .navbar-nav > .active > a:focus {
   color: #86DEB7;
   background-color: #63B995;
+  margin-right: 20px;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -76,17 +78,29 @@ a.navbar-brand{
   }
 }
 
+@media (min-width: 768px)
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+
 img{
   width: 100%;
   height: 75vh;
 }
 .fa{
-  font-size: 4;em;
-  margin-top: 2%;
-  color: #50723C;
+  font-size: 3em;
+  margin-top: 1%;
+  color: #ADEEE3;
   text-align: center;
 }
 i {
   display: inline-block;
+  padding: 1%;
   width: 100%;
+}
+i:hover{
+  color: #86DEB7;
+}
+#log{
+  margin-right: 28px;
 }
