@@ -1,7 +1,10 @@
+body{
+  background: #A9CEF4;
+}
 .frame{
   border: 10px solid #000000;
-  background: #36494E;
-  margin-top: 3%;
+  background: #92B2AF;
+  margin-top: 1%;
   border-radius: 6%;
 }
 input{
@@ -16,10 +19,20 @@ button{
   margin-left: 5%;
   margin-top: 6%;
   margin-bottom: 5%;
+  box-shadow: 4px 4px #36494E;
+}
+.btn:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+}
+button:focus, input:focus{
+    outline: none;
 }
 .clear{
   margin: 0px;
   margin-left: 5%;
+  height: 10vh;
 }
 .bottom{
   margin-bottom: 3%;
