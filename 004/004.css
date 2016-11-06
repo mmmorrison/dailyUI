@@ -3,41 +3,37 @@ body{
   font-family: 'Orbitron', sans-serif;
 }
 .frame{
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   background: #92B2AF;
   margin-top: 2%;
-  border-radius: 6%;
+  border-top-left-radius: 80% 20px;
+  border-top-right-radius: 80% 20px;
+  border-bottom-left-radius: 80% 20px;
+  border-bottom-right-radius: 80% 20px;
+  box-shadow: inset 5px 0 10px -5px #635e61, inset -5px 0 10px -5px #635e61, inset 0px -5px 10px -2px #635e61, 0 0 1px 2px #635e61, 0 10px 20px 0 #494547;
+  text-align: center;
 }
 input{
   margin-top: 3%;
   margin-left: 5%;
-  width: 56%;
+  width: 70%;
   height: 10vh;
   font-size: 2em;
 }
 button{
   width: 25%;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-top: 6%;
   margin-bottom: 5%;
-  /*box-shadow: 4px 4px #36494E;*/
 }
-/*.btn:active{
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}*/
+
 input:focus{
     outline: none;
 }
 button:focus{
   outline: none !important;
 }
-.clear{
-  margin: 0px;
-  margin-left: 5%;
-  height: 9vh;
-  margin-bottom: 1%;
-}
+
 .bottom{
   margin-bottom: 3%;
 }
