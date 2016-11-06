@@ -4,8 +4,11 @@ body{
 }
 .frame{
   height: 80vh;
+  width: 80%;
   background: #92B2AF;
-  margin-top: 2%;
+  margin-top: 3% !important;
+  position: relative;
+  margin: 0 auto;
   border-top-left-radius: 80% 20px;
   border-top-right-radius: 80% 20px;
   border-bottom-left-radius: 80% 20px;
@@ -32,8 +35,11 @@ input{
 button{
   width: 20%;
   margin-left: 1%;
-  margin-top: 4%;
+  margin-top: 5%;
   margin-bottom: 5%;
+  position: absolute;
+  right:0px;
+  bottom:0px;
 }
 button:focus{
   outline: none !important;
@@ -51,7 +57,7 @@ input:focus{
   margin-bottom: 3%;
 }
 .top{
-  margin-top: 2%;
+  margin-top: 4%;
 }
 .hvr-radial-out {
   display: inline-block;
