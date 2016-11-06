@@ -4,7 +4,7 @@ body{
 }
 .frame{
   height: 80vh;
-  width: 80%;
+  width: 60%;
   background: #92B2AF;
   margin-top: 3% !important;
   position: relative;
@@ -20,7 +20,7 @@ body{
   text-align: center;
 }
 input{
-  margin-top: 3%;
+  margin-top: 6%;
   margin-left: 6%;
   margin-right: 5%;
   width: 84%;
@@ -28,7 +28,7 @@ input{
   font-size: 2em;
 }
 #allClear, #clear{
-  width: 13vw;
+  width: 10vw;
   background: #C04152;
   border-color: #C04152;
   box-shadow: 6px 3px 3px #4c1a20;
@@ -40,11 +40,11 @@ input{
 }
 #clear{
   margin-right: 1%;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 #allClear{
   margin-right: 1%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 /*#plus{
   height: 15vh;
