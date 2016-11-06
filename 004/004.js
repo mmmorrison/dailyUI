@@ -1,7 +1,9 @@
 function clear() {
-  document.getElementById('clear').value = '';
+  document.getElementById('clear').value = ' ';
+
 }
 
-function one() {
-  
-}
+
+  document.getElementById('one').onclick = function () {
+    document.getElementById('screen').value = '1';
+  }
