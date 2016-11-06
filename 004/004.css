@@ -28,20 +28,35 @@ input{
   font-size: 2em;
 }
 #allClear, #clear{
+  width: 13vw;
   background: #C04152;
   border-color: #C04152;
-  text-shadow: #A9A9A9 0px 1px 0, #333 0 -1px 0;
+  box-shadow: 6px 3px 3px #4c1a20;
+  text-shadow: #4c1a20 0px 1px 0, #333 0 -1px 0;
+  border-top-left-radius: 10% 20px;
+  border-top-right-radius: 10% 20px;
+  border-bottom-left-radius: 10% 20px;
+  border-bottom-right-radius: 10% 20px;
 }
+#clear{
+  margin-right: 1%;
+  margin-left: 3%;
+}
+#allClear{
+  margin-right: 1%;
+  margin-left: 2%;
+}
+/*#plus{
+  height: 15vh;
+    margin-top: 1%;
+    position: absolute;;
+}*/
 button{
   width: 20%;
   margin-left: 1%;
   margin-top: 5%;
   margin-bottom: 5%;
   position: absolute;
-  right:0px;
-  bottom:0px;
-  border-top: 2px solid #7c748f;
-  box-shadow:
   font-weight: bold;
   text-shadow:#fff 0px 1px 0, #333 0 -1px 0;
 }
@@ -49,17 +64,17 @@ button:focus{
   outline: none !important;
 }
 button:hover{
-  border-color: #7DBA84 !important;
+  border-color: #b8b3b4 !important;
 }
 .btn:active {
   -webkit-box-shadow:
-    0 8px 0 #649469,
+    0 8px 0 #919091,
     0 12px 10px rgba(0,0,0,.3);
   -moz-box-shadow:
-    0 8px 0 #649469,
+    0 8px 0 #919091,
     0 12px 10px rgba(0,0,0,.3);
   box-shadow:
-    0 8px 0 #649469,
+    0 8px 0 #919091,
     0 12px 10px rgba(0,0,0,.3);
   -webkit-transform: translate(0, 4px);
   -moz-transform: translate(0, 4px);
@@ -70,13 +85,14 @@ button:hover{
   -o-transition: -o-box-shadow .2s ease-in-out;
   transition: box-shadow .2s ease-in-out;
 }
-
-
 input:focus{
     outline: none;
 }
 .bottom{
   margin-bottom: 3%;
+  float: left;
+  position: fixed;
+  top: 40px;
 }
 .top{
   margin-top: 4%;
@@ -106,7 +122,7 @@ input:focus{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #7DBA84;
+  background: #b8b3b4;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
