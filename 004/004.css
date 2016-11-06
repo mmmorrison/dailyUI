@@ -30,7 +30,7 @@ input{
 #allClear, #clear{
   background: #C04152;
   border-color: #C04152;
-
+  text-shadow: #A9A9A9 0px 1px 0, #333 0 -1px 0;
 }
 button{
   width: 20%;
@@ -40,6 +40,10 @@ button{
   position: absolute;
   right:0px;
   bottom:0px;
+  border-top: 2px solid #7c748f;
+  box-shadow:
+  font-weight: bold;
+  text-shadow:#fff 0px 1px 0, #333 0 -1px 0;
 }
 button:focus{
   outline: none !important;
@@ -47,12 +51,30 @@ button:focus{
 button:hover{
   border-color: #7DBA84 !important;
 }
+.btn:active {
+  -webkit-box-shadow:
+    0 8px 0 #649469,
+    0 12px 10px rgba(0,0,0,.3);
+  -moz-box-shadow:
+    0 8px 0 #649469,
+    0 12px 10px rgba(0,0,0,.3);
+  box-shadow:
+    0 8px 0 #649469,
+    0 12px 10px rgba(0,0,0,.3);
+  -webkit-transform: translate(0, 4px);
+  -moz-transform: translate(0, 4px);
+  -o-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+  -moz-transition: -moz-box-shadow .2s ease-in-out;
+  -o-transition: -o-box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
+}
+
 
 input:focus{
     outline: none;
 }
-
-
 .bottom{
   margin-bottom: 3%;
 }
