@@ -15,9 +15,13 @@ h1{
   text-shadow: 4px 10px black;
 }
 sub{
-  -ms-transform: rotate(70deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
   color: gray;
+}
 
+.vertical-text {
+	transform: rotate(45deg);
+	transform-origin: left top 0;
+  position: absolute;
+  top: 130px;
+  left: 440px;
 }
