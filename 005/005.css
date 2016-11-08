@@ -6,7 +6,11 @@
   margin: 0 auto;
   margin-top: 5%;
   font-family: 'Yellowtail', cursive;
+}
+.innerFrame{
   background-color: red;
+  border-radius: 5%;
+  height: 100%;
 }
 h1{
   font-size: 20em;
@@ -14,10 +18,9 @@ h1{
   color: orange;
   text-shadow: 4px 10px black;
 }
-sub{
+p{
   color: gray;
 }
-
 .vertical-text {
 	transform: rotate(45deg);
 	transform-origin: left top 0;
