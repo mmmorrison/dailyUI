@@ -1,10 +1,23 @@
 .frame{
-  border: 2px solid orange;
+  border: 20px solid orange;
   border-radius: 5%;
   height: 50vh;
   width: 40%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
+  font-family: 'Yellowtail', cursive;
+  background-color: red;
 }
-h2{
+h1{
+  font-size: 20em;
+  margin: 0 auto;
+  color: orange;
+  text-shadow: 4px 10px black;
+}
+sub{
+  -ms-transform: rotate(70deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+  color: gray;
+
 }
