@@ -1,5 +1,4 @@
-# dailyUI
-Daily UI Challenge
+#Daily UI Challenge
 
 Resources:
 [Daily UI](http://www.dailyui.co/)
