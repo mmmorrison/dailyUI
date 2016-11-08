@@ -9,7 +9,7 @@
 }
 .innerFrame{
   background-color: #e74c3c;
-  border-radius: 5%;
+  /*border-radius: 1%;*/
   height: 100%;
 }
 h1{
@@ -17,14 +17,15 @@ h1{
   margin: 0 auto;
   color: #f39c12;
   text-shadow: 4px 10px #34495e;
+  text-align: center;
 }
 p{
   color: #7f8c8d;
 }
-.vertical-text {
+/*.vertical-text {
 	transform: rotate(45deg);
 	transform-origin: left top 0;
   position: absolute;
   top: 130px;
   left: 440px;
-}
+}*/
