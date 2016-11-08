@@ -6,6 +6,12 @@ a.navbar-brand, .quandry{
   font-family: 'Shrikhand', cursive;
   font-size: 3em;
 }
+/*.quandry:hover{
+  visibility: visible;
+  color: red;
+}*/
+
+
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -115,6 +121,6 @@ i:hover{
 }
 .dailyUI{
   color: #ADEEE3;
-  display: none;
+  visibility: hidden;
   text-align: center;
 }
