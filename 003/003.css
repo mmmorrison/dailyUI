@@ -113,3 +113,8 @@ i:hover{
   width: 40%;
   float: left;
 }
+.dailyUI{
+  color: #ADEEE3;
+  display: none;
+  text-align: center;
+}
