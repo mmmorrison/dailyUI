@@ -1,5 +1,5 @@
 .frame{
-  border: 20px solid orange;
+  border: 20px solid #f39c12;
   border-radius: 5%;
   height: 50vh;
   width: 40%;
@@ -8,18 +8,18 @@
   font-family: 'Yellowtail', cursive;
 }
 .innerFrame{
-  background-color: red;
+  background-color: #e74c3c;
   border-radius: 5%;
   height: 100%;
 }
 h1{
   font-size: 20em;
   margin: 0 auto;
-  color: orange;
-  text-shadow: 4px 10px black;
+  color: #f39c12;
+  text-shadow: 4px 10px #34495e;
 }
 p{
-  color: gray;
+  color: #7f8c8d;
 }
 .vertical-text {
 	transform: rotate(45deg);
