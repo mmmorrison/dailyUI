@@ -12,10 +12,38 @@
   height: 56px;
   position: relative;
   margin: 42px auto;
+  text-indent:-9999em;
 
   -webkit-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
   -moz-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
   box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
 
-  text-indent:-9999em;
+
+
+  -webkit-border-radius:3px 15px 3px 3px;
+  -moz-border-radius:3px 15px 3px 3px;
+  border-radius:3px 15px 3px 3px;
+}
+.icon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+
+  background: -webkit-linear-gradient(45deg, #fff 0, #eee 50%, #ccc 100%);
+  background: -moz-linear-gradient(45deg, #fff 0, #eee 50%, #ccc 100%);
+  background: -o-linear-gradient(45deg, #fff 0, #eee 50%, #ccc 100%);
+  background: -ms-linear-gradient(45deg, #fff 0, #eee 50%, #ccc 100%);
+  background: linear-gradient(45deg, #fff 0, #eee 50%, #ccc 100%);
+
+  -webkit-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+  -moz-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+  box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
 }
