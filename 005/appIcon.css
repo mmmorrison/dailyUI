@@ -1,0 +1,21 @@
+.icon {
+  background: #eee;
+  background: -webkit-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
+  background: -moz-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
+  background: -o-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
+  background: -ms-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
+  background: linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
+
+  border: 1px solid #ccc;
+  display: block;
+  width: 40px;
+  height: 56px;
+  position: relative;
+  margin: 42px auto;
+
+  -webkit-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
+  -moz-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
+  box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
+
+  text-indent:-9999em;
+}
