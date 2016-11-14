@@ -13,12 +13,18 @@
 
 /*font-family: 'Ravi Prakash', cursive;
 
-font-family: 'Cormorant Garamond', serif;
 font-family: 'Ranga', cursive;
 font-family: 'Indie Flower', cursive;*/
 
-.scheme1{
+.font1{
   font-family: 'Raleway', sans-serif;
+}
+.font2{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+.scheme1{
   background-color: #C6C5B9;
   /*#310A31
   #62929E
