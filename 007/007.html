@@ -10,12 +10,23 @@
     <div class="container">
       <div class="row">
         <h1 class="text-center">Daily UI 007: Settings</h1>
-        <p><label id="black">Black</label></p>
-        <div class="text-center">
-          <input id="slider" type="range" name="color" class="col-lg-8 ">
-        </div>
-        <p><label id="white">White</label></p>
-
+        <div class="changeFont">
+          <p>
+            <b id="fontFirst">0</b>
+          </p>
+          <p>
+            <b id="fontLast">100</b>
+          </p>
+          <input id="slider" type="range" name="font" data-slider-min="0" data-slider-max="100">
+          <div class="changeColor">
+            <p>
+              <b id="colorFirst">0</b>
+            </p>
+            <p>
+              <b id="colorLast">100</b>
+            </p>
+            <input type="range" id="slider" name="color" data-slider-min="0" data-sider-max='100'>
+          </div>
 
       </div>
     </div>

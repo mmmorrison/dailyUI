@@ -1,7 +1,12 @@
-#slider{
-  display: block;
-  /*margin: 0 auto;*/
+#fontFirst, #colorFirst{
+  float: left;
 }
-b{
-  /*display: block;*/
+#fontLast, #colorLast{
+  float: right;
+}
+.changeFont{
+  margin-top: 15%;
+}
+.changeColor{
+  margin-top: 5%;
 }
