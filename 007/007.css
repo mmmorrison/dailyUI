@@ -1,14 +1,14 @@
-#fontFirst, #colorFirst{
-  float: left;
-}
-#fontLast, #colorLast{
-  float: right;
-}
-.changeFont{
-  margin-top: 15%;
-}
-.changeColor{
+button{
+  position:relative;
+  top:50%;
+  left:50%;
   margin-top: 5%;
+}
+.btn, .btn-defualt{
+  background-color: #FF1053;
+}
+.showHide{
+  visibility: hidden;
 }
 
 /*font-family: 'Ravi Prakash', cursive;
@@ -33,11 +33,3 @@ font-family: 'Indie Flower', cursive;*/
 
 
 }
-/*.scheme2{
-  font-family: 'Raleway', sans-serif;
-  background-color: #C6C5B9;
-  /*#310A31
-  #62929E
-  #4A6D7C
-  #475657*/
-}*/
