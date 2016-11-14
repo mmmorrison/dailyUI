@@ -26,3 +26,15 @@ h1{
   margin-bottom: 1%;
   margin-top: 0;
 }
+img{
+  margin: 0 auto;
+  display: block;
+}
+img:before{
+  position: absolute;
+  content: '';
+  background: rgba(0,0,0, 0.5); /*partially transparent image*/
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+}
