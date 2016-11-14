@@ -6,6 +6,7 @@ button{
 }
 .btn, .btn-defualt{
   background-color: #FF1053;
+  border-color: #FF1053;
 }
 .showHide{
   visibility: hidden;
