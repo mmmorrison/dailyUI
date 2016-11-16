@@ -1,5 +1,9 @@
 $(document).ready(function() {
   $('.settings').click(function () {
-    $('.ChangeFont').toggleClass('.showHide')
+    if ($('.ChangeFont').css('visibility') == 'hidden'){
+      $('.ChangeFont').css('visibility', 'visible');
+    }else{
+      $('.ChangeFont').css('visibility', 'hidden');
+    }
   })
-})
+  })

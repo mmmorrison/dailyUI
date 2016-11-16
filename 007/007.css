@@ -8,7 +8,10 @@ button{
   background-color: #FF1053;
   border-color: #FF1053;
 }
-.showHide{
+/*.showHide{
+  visibility: visible;;
+}*/
+.ChangeFont{
   visibility: hidden;
 }
 
@@ -31,6 +34,4 @@ font-family: 'Indie Flower', cursive;*/
   #62929E
   #4A6D7C
   #475657*/
-
-
 }
