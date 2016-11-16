@@ -8,23 +8,39 @@ button{
   background-color: #FF1053;
   border-color: #FF1053;
 }
-/*.showHide{
-  visibility: visible;;
-}*/
 .ChangeFont{
   visibility: hidden;
+  margin-top: 5%;
 }
-
-/*font-family: 'Ravi Prakash', cursive;
-
-font-family: 'Ranga', cursive;
-font-family: 'Indie Flower', cursive;*/
-
-.font1{
+ul{
+  list-style: none;
+}
+.fontTypes{
+  width: 45%;
+  margin-top: 5%;
+  position: relative;
+  top: 60%;
+  left: 40%;
+}
+.indie{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4em;
+}
+.ranga{
+  font-family: 'Ranga', cursive;
+  font-size: 1.4em;
+}
+.ravi{
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 1.4em;
+}
+.raleway{
   font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
 }
-.font2{
+.cormorant{
   font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4em;
 }
 
 
