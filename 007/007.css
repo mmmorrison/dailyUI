@@ -8,7 +8,7 @@ button{
   background-color: #FF1053;
   border-color: #FF1053;
 }
-.fonts{
+.fontsButton{
   margin-right: 5%;
   position: relative;
   left: 35%;
@@ -16,9 +16,10 @@ button{
 .ChangeFont{
   visibility: hidden;
   margin-top: 5%;
+  margin-right: 10%;
   display: inline-block;
   border: 1px solid black;
-  width: 35%;
+  width: 45%;
 }
 .ChangeColor{
   visibility: hidden;
@@ -68,6 +69,10 @@ ul{
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.2em;
 }
+.colorScheme{
+  font-weight: 300;
+  margin-bottom: 2%;
+}
 
 
 .scheme1{
@@ -76,4 +81,6 @@ ul{
   #62929E
   #4A6D7C
   #475657*/*/
+  margin-top: 50%;
+  border: 1px solid black;
 }

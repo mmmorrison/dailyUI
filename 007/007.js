@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Click fonts button and shows font options
-  $('.fonts').click(function () {
+  $('.fontsButton').click(function () {
     if ($('.ChangeFont').css('visibility') == 'hidden'){
       $('.ChangeFont').css('visibility', 'visible');
     }else{
@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   // Click colors button and shows color options
-  $('.colors').click(function () {
+  $('.colorsButton').click(function () {
     if ($('.ChangeColor').css('visibility') == 'hidden'){
       $('.ChangeColor').css('visibility', 'visible');
     }else{
@@ -20,4 +20,3 @@ $(document).ready(function() {
 
 
 })
-x
