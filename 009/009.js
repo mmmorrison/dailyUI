@@ -15,6 +15,3 @@ var albumInfo = [{
  artist: 'The Doors',
  albums: 'An American Prayer'
 }]
-
-
-console.log("<img src='albums/'" + albumInfo[0].cover);
