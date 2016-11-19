@@ -50,23 +50,31 @@ ul{
 }
 .indie{
   font-family: 'Indie Flower', cursive;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 .ranga{
   font-family: 'Ranga', cursive;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 .ravi{
   font-family: 'Ravi Prakash', cursive;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 .raleway{
   font-family: 'Raleway', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 .cormorant{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
+}
+.delius{
+  font-family: 'Delius Unicase', cursive;
+  font-size: 1.5em;
+}
+.tangerine{
+  font-family: 'Tangerine', cursive;
+  font-size: 1.5em;
 }
 .colorScheme{
   font-weight: lighter;
