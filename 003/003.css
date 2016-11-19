@@ -6,12 +6,6 @@ a.navbar-brand, .quandry{
   font-family: 'Shrikhand', cursive;
   font-size: 3em;
 }
-/*.quandry:hover{
-  visibility: visible;
-  color: red;
-}*/
-
-
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -114,13 +108,31 @@ i:hover{
   width: 40%;
   float: left;
   margin-right: 20%;
+  margin-bottom: 10%
 }
 .second{
   width: 40%;
   float: left;
+  margin-bottom: 10%;
 }
 .dailyUI{
   color: #ADEEE3;
   visibility: hidden;
   text-align: center;
+}
+.navbar-fixed-bottom{
+  text-align: center;
+  padding-top: 1%;
+  border-color: #ADEEE3;
+  margin-top: 5%;
+}
+a.home{
+  text-decoration: none;
+  color: #005C69;
+}
+a.home:hover{
+  color: #000000;
+}
+h1{
+  color: #1C3A13;
 }

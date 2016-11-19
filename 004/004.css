@@ -1,15 +1,16 @@
 body{
   background: #A9CEF4;
   font-family: 'Orbitron', sans-serif;
-  
+
 }
 .frame{
   height: 80vh;
   width: 60%;
   background: #92B2AF;
-  margin-top: 3% !important;
+  margin-top: 2% !important;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 1%;
   border-top-left-radius: 80% 20px;
   border-top-right-radius: 80% 20px;
   border-bottom-left-radius: 80% 20px;
@@ -140,4 +141,18 @@ input:focus{
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
+}
+.navbar-fixed-bottom{
+  text-align: center;
+  padding-top: 1%;
+  border-color: #A9CEF4;
+  background-color: #A9CEF4;
+  margin-top: 5%;
+}
+a.home{
+  text-decoration: none;
+  color: #005C69;
+}
+a.home:hover{
+  color: #000000;
 }
