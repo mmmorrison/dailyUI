@@ -5,7 +5,33 @@ body {
 
 .frame {
     background-color: #006C7C;
-    -webkit-box-shadow: -4px -5px 7px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -4px -5px 7px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: -4px -5px 7px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 92px 0px 91px 0px;
+    -moz-border-radius: 92px 0px 91px 0px;
+    -webkit-border-radius: 92px 0px 91px 0px;
+    border: 0px outset #000000;
+    box-shadow: inset 5px 0 10px -5px #000000, inset -5px 0 10px -5px #000000, inset 0px -5px 10px -2px #000000, 0 0 1px 2px #000000, 0 10px 20px 0 #000000;
+    height: 70vh;
+    width: 35vw;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.credits {
+    font-size: .5em;
+    margin-top: 5%;
+}
+
+.controls {
+    position: relative;
+    top: 85%;
+    left: 35%;
+}
+
+img {
+    width: 10%;
+    height: 20%;
+    margin-right: 2%;
+    /*position: relative;
+    top: 90%;
+    left: 40%;*/
 }
