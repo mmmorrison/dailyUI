@@ -17,7 +17,7 @@ $(document).ready(function(){
     }
   });
 
-  //Click only one box & add class
+  //Click only one font box & add class
   $('.fontBoxes').click(function(){
     if ($(this).is(':checked')){
       $('.fontBoxes').not($(this)).attr('checked', false);
@@ -25,11 +25,20 @@ $(document).ready(function(){
     }
   });
 
+  //Click only one style box
   $('.schemeBoxes').click(function() {
     if ($(this).is(':checked')){
       $('.schemeBoxes').not($(this)).attr('checked', false);
     }
+  });
+
+  $('.colorScheme').click(function(){
+    $('link[href="007.css"]').attr('href', 'scheme1.css')
   })
+
+
+
+
 
 
 
