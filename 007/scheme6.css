@@ -1,141 +1,157 @@
-body{
-  background-color: #9DC7C8;
+body {
+    background-color: #9DC7C8;
 }
-.navbar, .navbar-default{
-  background-color: #748386;
-  border-color: #748386;
+
+.navbar, .navbar-default {
+    background-color: #748386;
+    border-color: #748386;
 }
-.navbar-default .navbar-nav > li > a {
-  color: #3B0D11;
+
+.navbar-default .navbar-nav>li>a {
+    color: #3B0D11;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #706563;
-  background-color: transparent;
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #706563;
+    background-color: transparent;
 }
+
 .navbar-default .navbar-brand {
-  color: #706563;
+    color: #706563;
 }
+
 .navbar-default .navbar-brand {
-  color: #706563;
+    color: #706563;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #3B0D11;
-  background-color: #748386;
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #3B0D11;
+    background-color: #748386;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #FFFFFF;
-  background-color: #748386;
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #FFFFFF;
+    background-color: #748386;
 }
+
 .navbar-default .navbar-toggle {
-  border-color: #748386;
+    border-color: #748386;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #748386;
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #748386;
 }
-button,
-button:active,
-button:focus,
-button:hover,
-.btn,
-.btn:active,
-.btn:focus,
-.btn:hover{
-    outline:0 !important;
-    -webkit-appearance:none;
+
+button, button:active, button:focus, button:hover, .btn, .btn:active, .btn:focus, .btn:hover {
+    outline: 0 !important;
+    -webkit-appearance: none;
 }
-.btn, .btn-defualt{
-  background-color: #706563;
-  border-color: #706563;
-  color: #9DC7C8;
-  margin-top: 6%;
+
+.btn, .btn-defualt {
+    background-color: #706563;
+    border-color: #706563;
+    color: #9DC7C8;
+    margin-top: 6%;
 }
-.fontsButton{
-  margin-right: 5%;
-  position: relative;
-  left: 20%;
+
+.fontsButton {
+    margin-right: 5%;
+    position: relative;
+    left: 20%;
 }
-.colorsButton{
-  position: relative;
-  left: 55%;
+
+.colorsButton {
+    position: relative;
+    left: 55%;
 }
-.ChangeFont{
-  visibility: hidden;
-  margin-top: 5%;
-  margin-right: 7%;
-  display: inline-block;
-  width: 45%;
+
+.ChangeFont {
+    visibility: hidden;
+    margin-top: 5%;
+    margin-right: 7%;
+    display: inline-block;
+    width: 45%;
 }
-.ChangeColor{
-  visibility: hidden;
-  margin-top: 2%;
-  display: inline-block;
-  width: 35%;
+
+.ChangeColor {
+    visibility: hidden;
+    margin-top: 2%;
+    display: inline-block;
+    width: 35%;
 }
-.colorTypes{
-  width: 45%;
-  margin-top: 5%;
-  position: relative;
-  top: 60%;
-  left: 30%;
+
+.colorTypes {
+    width: 45%;
+    margin-top: 5%;
+    position: relative;
+    top: 60%;
+    left: 30%;
 }
-.fontTypes{
-  width: 55%;
-  height: 50%;
-  margin-top: 5%;
-  position: relative;
-  top: 70%;
-  left: 30%;
+
+.fontTypes {
+    width: 55%;
+    height: 50%;
+    margin-top: 5%;
+    position: relative;
+    top: 70%;
+    left: 30%;
 }
-ul{
-  list-style: none;
+
+ul {
+    list-style: none;
 }
-.indie{
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.6em;
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
 }
-.ranga{
-  font-family: 'Ranga', cursive;
-  font-size: 1.6em;
+
+.ranga {
+    font-family: 'Ranga', cursive;
+    font-size: 1.3em;
 }
-.ravi{
-  font-family: 'Ravi Prakash', cursive;
-  font-size: 1.6em;
+
+.ravi {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 1.3em;
 }
-.raleway{
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6em;
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
 }
-.cormorant{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6em;
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
 }
-.delius{
-  font-family: 'Delius Unicase', cursive;
-  font-size: 1.6em;
+
+.delius {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1.3em;
 }
-.tangerine{
-  font-family: 'Tangerine', cursive;
-  font-size: 1.6em;
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.3em;
 }
-.colorScheme{
-  font-weight: lighter;
-  font-size: 1.5em;
+
+.colorScheme {
+    font-weight: lighter;
+    font-size: 1.3em;
 }
-.navbar-fixed-bottom{
-  text-align: center;
-  background-color: #6A3937;
-  padding-top: 1%;
+
+.navbar-fixed-bottom {
+    text-align: center;
+    background-color: #6A3937;
+    padding-top: 1%;
 }
-a.home{
-  text-decoration: none;
-  color: #9DC7C8;
+
+a.home {
+    text-decoration: none;
+    color: #9DC7C8;
 }
-a.home:hover{
-  color: #000000;
+
+a.home:hover {
+    color: #000000;
 }
