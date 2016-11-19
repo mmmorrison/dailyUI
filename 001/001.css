@@ -66,3 +66,16 @@ a:hover {
   background-color: #A4D4B4;
   border-color: #A4D4B4;
 }
+.navbar-fixed-bottom{
+  text-align: center;
+  padding-top: 1%;
+  background-color: #A4D4B4;
+  border-color: #A4D4B4;
+}
+a.home{
+  text-decoration: none;
+  color: #005C69;
+}
+a.home:hover{
+  color: #000000;
+}
