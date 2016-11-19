@@ -19,14 +19,12 @@ button{
   margin-right: 5%;
   display: inline-block;
   width: 45%;
-  /*border: 1px solid black;*/
 }
 .ChangeColor{
   visibility: hidden;
   margin-top: 5%;
   display: inline-block;
   width: 45%;
-  /*border: 1px solid black;*/
 }
 .colorTypes{
   width: 45%;
@@ -34,7 +32,6 @@ button{
   position: relative;
   top: 60%;
   left: 30%;
-  /*border: 1px solid red;*/
 }
 .fontTypes{
   width: 55%;
@@ -43,7 +40,6 @@ button{
   position: relative;
   top: 70%;
   left: 30%;
-  /*border: 1px solid red;*/
 }
 ul{
   list-style: none;
@@ -71,5 +67,4 @@ ul{
 .colorScheme{
   font-weight: lighter;
   font-size: 1.6em;
-  /*margin-bottom: 2%;*/
 }
