@@ -16,36 +16,37 @@ button{
 .ChangeFont{
   visibility: hidden;
   margin-top: 5%;
-  margin-right: 10%;
+  margin-right: 5%;
   display: inline-block;
   width: 45%;
+  border: 1px solid black;
 }
 .ChangeColor{
   visibility: hidden;
-  display: inline-block;
-  width: 25%;
-
-  /*margin-top: 5%;
-  /*position: relative;*/
-  /*top: 65%;*/
-  /*left: 50%;*/
-}
-/*.colorTypes{
-  width: 35%;
   margin-top: 5%;
-  position: relative;
-  top: 60%;
-  left: 100%;
-}*/
-ul{
-  list-style: none;
+  display: inline-block;
+  width: 45%;
+  border: 1px solid black;
 }
-.fontTypes{
+.colorTypes{
   width: 45%;
   margin-top: 5%;
   position: relative;
   top: 60%;
   left: 30%;
+  border: 1px solid red;
+}
+.fontTypes{
+  width: 45%;
+  height: 50%; 
+  margin-top: 5%;
+  position: relative;
+  top: 60%;
+  left: 30%;
+  border: 1px solid red;
+}
+ul{
+  list-style: none;
 }
 .indie{
   font-family: 'Indie Flower', cursive;
@@ -57,17 +58,18 @@ ul{
 }
 .ravi{
   font-family: 'Ravi Prakash', cursive;
-  font-size: 1.7;
+  font-size: 1.7em;
 }
 .raleway{
   font-family: 'Raleway', sans-serif;
-  font-size: 1.7;
+  font-size: 1.7em;
 }
 .cormorant{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.7;
+  font-size: 1.7em;
 }
 .colorScheme{
-  font-weight: 300;
-  margin-bottom: 2%;
+  font-weight: lighter;
+  font-size: 1.2em;
+  /*margin-bottom: 2%;*/
 }
