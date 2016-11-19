@@ -32,9 +32,23 @@ body{
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 1s;
 }
+.firstTwo{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+}
+.secondTwo{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+}
+.thirdTwo{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
 h1{
   font-size: 15em;
 }
 h4{
-  
+  color: #7B0D1E;
+  text-shadow: -5px 0 #3E000C, 0 1px #3E000C, 1px 0 #3E000C, 0 -1px #3E000C;
+  font-size: 4em;
 }
