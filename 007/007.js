@@ -17,13 +17,14 @@ $(document).ready(function() {
     }
   });
 
-  //Click only one box
+  //Click only one box & add class
   $('.fontBoxes').click(function() {
     if ($(this).is(':checked')) {
       $('.fontBoxes').not($(this)).attr('checked', false);
-      $('body').css('font-family', this.name);
-
+      $('body').removeClass().addClass(this.name)
     }
   });
+
+
 
 })
