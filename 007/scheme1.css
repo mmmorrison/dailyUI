@@ -54,16 +54,6 @@ button:hover,
   border-color: #310A31;
   color: #FFFFFF;
 }
-.btn-defualt {
-    color: #fff;
-    background-color: #0495c9;
-    border-color: #8D9EC6;
-}
-.btn-defualt:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #00b3db;
-    border-color: #8D9EC6;
-}
 .fontsButton{
   margin-right: 5%;
   position: relative;
@@ -131,8 +121,7 @@ ul{
 .navbar-fixed-bottom{
   text-align: center;
   background-color: #475657;
-  border: 1px solid green;
-  padding-top: .5%;
+  padding-top: 1%;
 }
 a.home{
   text-decoration: none;

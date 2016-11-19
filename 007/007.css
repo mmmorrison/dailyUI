@@ -85,6 +85,8 @@ button:hover,
 }
 .navbar-fixed-bottom{
   text-align: center;
+  padding-top: 1%;
+
 }
 a.home{
   text-decoration: none;
