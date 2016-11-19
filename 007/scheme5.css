@@ -115,6 +115,14 @@ ul{
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.6em;
 }
+.delius{
+  font-family: 'Delius Unicase', cursive;
+  font-size: 1.6em;
+}
+.tangerine{
+  font-family: 'Tangerine', cursive;
+  font-size: 1.6em;
+}
 .colorScheme{
   font-weight: lighter;
   font-size: 1.5em;

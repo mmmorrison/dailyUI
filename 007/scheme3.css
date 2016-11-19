@@ -14,10 +14,10 @@ body{
   background-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #FF4B3E;
+  color: #311847;
 }
 .navbar-default .navbar-brand {
-  color: #FF4B3E;
+  color: #311847;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -113,6 +113,14 @@ ul{
 }
 .cormorant{
   font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6em;
+}
+.delius{
+  font-family: 'Delius Unicase', cursive;
+  font-size: 1.6em;
+}
+.tangerine{
+  font-family: 'Tangerine', cursive;
   font-size: 1.6em;
 }
 .colorScheme{

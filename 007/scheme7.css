@@ -1,0 +1,157 @@
+body {
+    background-color: #D4E6B5;
+}
+
+.navbar, .navbar-default {
+    background-color: #AFC97E;
+    border-color: #AFC97E;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #68A691;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #68A691;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFDF64;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFDF64;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #68A691;
+    background-color: #AFC97E;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #FFFFFF;
+    background-color: #AFC97E;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #AFC97E;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #AFC97E;
+}
+
+button, button:active, button:focus, button:hover, .btn, .btn:active, .btn:focus, .btn:hover {
+    outline: 0 !important;
+    -webkit-appearance: none;
+}
+
+.btn, .btn-defualt {
+    background-color: #68A691;
+    border-color: #68A691;
+    color: #D4E6B5;
+    margin-top: 6%;
+}
+
+.fontsButton {
+    margin-right: 5%;
+    position: relative;
+    left: 20%;
+}
+
+.colorsButton {
+    position: relative;
+    left: 55%;
+}
+
+.ChangeFont {
+    visibility: hidden;
+    margin-top: 5%;
+    margin-right: 7%;
+    display: inline-block;
+    width: 45%;
+}
+
+.ChangeColor {
+    visibility: hidden;
+    margin-top: 2%;
+    display: inline-block;
+    width: 35%;
+}
+
+.colorTypes {
+    width: 45%;
+    margin-top: 5%;
+    position: relative;
+    top: 60%;
+    left: 30%;
+}
+
+.fontTypes {
+    width: 55%;
+    height: 50%;
+    margin-top: 5%;
+    position: relative;
+    top: 70%;
+    left: 30%;
+}
+
+ul {
+    list-style: none;
+}
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+}
+
+.ranga {
+    font-family: 'Ranga', cursive;
+    font-size: 1.3em;
+}
+
+.ravi {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 1.3em;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
+}
+
+.delius {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1.3em;
+}
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.3em;
+}
+
+.colorScheme {
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+
+.navbar-fixed-bottom {
+    text-align: center;
+    background-color: #877B66;
+    padding-top: 1%;
+}
+
+a.home {
+    text-decoration: none;
+    color: #AFC97E;
+}
+
+a.home:hover {
+    color: #000000;
+}

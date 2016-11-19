@@ -1,106 +1,119 @@
-button{
-  position:relative;
-  top:50%;
-  left:45%;
-  margin-top: 5%;
+button {
+    position: relative;
+    top: 50%;
+    left: 45%;
+    margin-top: 5%;
 }
-.btn, .btn-defualt{
-  background-color: #e7e7e7;
-  border-color: #e7e7e7;
+
+.btn, .btn-defualt {
+    background-color: #e7e7e7;
+    border-color: #e7e7e7;
 }
-.fontsButton{
-  margin-right: 5%;
-  position: relative;
-  left: 20%;
+
+.fontsButton {
+    margin-right: 5%;
+    position: relative;
+    left: 20%;
 }
-.colorsButton{
-  position: relative;
-  left: 57%;
+
+.colorsButton {
+    position: relative;
+    left: 57%;
 }
-.ChangeFont{
-  visibility: hidden;
-  margin-top: 5%;
-  margin-right: 7%;
-  display: inline-block;
-  width: 45%;
+
+.ChangeFont {
+    visibility: hidden;
+    margin-top: 5%;
+    margin-right: 7%;
+    display: inline-block;
+    width: 45%;
 }
-.ChangeColor{
-  visibility: hidden;
-  margin-top: 2%;
-  display: inline-block;
-  width: 35%;
+
+.ChangeColor {
+    visibility: hidden;
+    margin-top: 2%;
+    display: inline-block;
+    width: 35%;
 }
-.colorTypes{
-  width: 45%;
-  margin-top: 4%;
-  position: relative;
-  top: 60%;
-  left: 30%;
+
+.colorTypes {
+    width: 45%;
+    margin-top: 4%;
+    position: relative;
+    top: 60%;
+    left: 30%;
 }
-.fontTypes{
-  width: 55%;
-  height: 50%;
-  margin-top: 5%;
-  position: relative;
-  top: 70%;
-  left: 30%;
+
+.fontTypes {
+    width: 55%;
+    height: 50%;
+    margin-top: 5%;
+    position: relative;
+    top: 70%;
+    left: 30%;
 }
-ul{
-  list-style: none;
+
+ul {
+    list-style: none;
 }
-.indie{
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.5em;
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
 }
-.ranga{
-  font-family: 'Ranga', cursive;
-  font-size: 1.5em;
+
+.ranga {
+    font-family: 'Ranga', cursive;
+    font-size: 1.3em;
 }
-.ravi{
-  font-family: 'Ravi Prakash', cursive;
-  font-size: 1.5em;
+
+.ravi {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 1.3em;
 }
-.raleway{
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
 }
-.cormorant{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5em;
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
 }
-.delius{
-  font-family: 'Delius Unicase', cursive;
-  font-size: 1.5em;
+
+.delius {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1.3em;
 }
-.tangerine{
-  font-family: 'Tangerine', cursive;
-  font-size: 1.5em;
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.3em;
 }
-.colorScheme{
-  font-weight: lighter;
-  font-size: 1.5em;
+
+.colorScheme {
+    font-weight: lighter;
+    font-size: 1.3em;
 }
-button,
-button:active,
-button:focus,
-button:hover,
-.btn,
-.btn:active,
-.btn:focus,
-.btn:hover{
-    outline:0 !important;
-    -webkit-appearance:none;
+
+button, button:active, button:focus, button:hover, .btn, .btn:active, .btn:focus, .btn:hover {
+    outline: 0 !important;
+    -webkit-appearance: none;
 }
-.navbar-fixed-bottom{
-  text-align: center;
-  padding-top: 1%;
+
+.navbar-fixed-bottom {
+    text-align: center;
+    padding-top: 1%;
 }
-a.home{
-  text-decoration: none;
-  color: #777;
-  margin-top: 10%;
-  padding-top: 10%;
+
+a.home {
+    text-decoration: none;
+    color: #777;
+    margin-top: 10%;
+    padding-top: 10%;
 }
-a.home:hover{
-  color: #000000;
+
+a.home:hover {
+    color: #000000;
 }
