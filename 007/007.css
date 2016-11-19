@@ -15,7 +15,7 @@ button{
 }
 .colorsButton{
   position: relative;
-  left: 55%;
+  left: 57%;
 }
 .ChangeFont{
   visibility: hidden;
@@ -23,18 +23,16 @@ button{
   margin-right: 7%;
   display: inline-block;
   width: 45%;
-  border: 1px solid red;
 }
 .ChangeColor{
   visibility: hidden;
   margin-top: 2%;
   display: inline-block;
   width: 35%;
-  border: 1px solid red;
 }
 .colorTypes{
   width: 45%;
-  margin-top: 5%;
+  margin-top: 4%;
   position: relative;
   top: 60%;
   left: 30%;
@@ -73,4 +71,15 @@ ul{
 .colorScheme{
   font-weight: lighter;
   font-size: 1.5em;
+}
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover{
+    outline:0 !important;
+    -webkit-appearance:none;
 }

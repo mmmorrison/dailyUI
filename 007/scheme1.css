@@ -11,6 +11,17 @@ button{
   left:45%;
   margin-top: 5%;
 }
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover{
+    outline:0 !important;
+    -webkit-appearance:none;
+}
 .btn, .btn-defualt{
   background-color: #310A31;
   border-color: #310A31;
