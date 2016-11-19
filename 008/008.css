@@ -1,5 +1,7 @@
 body{
   background-color: #9F2042;
+  font-family: 'Audiowide', cursive;
+  /*font-weight: lighter;*/
 }
 .first,
 .second,
@@ -7,18 +9,15 @@ body{
 {
   text-align: center;
   display: inline-block;
-  margin-top: 10%;
+  margin-top: 2%;
   top: 50%;
   left: 50%;
   color: #D10000;
   text-shadow: -10px 0 #3E000C, 0 1px #3E000C, 1px 0 #3E000C, 0 -1px #3E000C;
-
-  /*visibility: hidden;*/
 }
 .page{
   display: block;
   text-align: center;
-  /*visibility: hidden;*/
 }
 .first{
   -webkit-animation-duration: 3s;
@@ -46,9 +45,17 @@ body{
 }
 h1{
   font-size: 15em;
+  text-shadow: -10px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+
 }
 h4{
-  color: #7B0D1E;
-  text-shadow: -5px 0 #3E000C, 0 1px #3E000C, 1px 0 #3E000C, 0 -1px #3E000C;
+  color: #700548;
+  text-shadow: -10px 0 #000000, 0 1px #000000, 2px 0 #000000, 0 -1px #000000;
   font-size: 4em;
+}
+h5{
+  color: #EA1744;
+  text-shadow: -3px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+  font-size: 2em;
+
 }
