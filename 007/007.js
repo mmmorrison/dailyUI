@@ -32,12 +32,7 @@ $(document).ready(function(){
     }
   });
 
-  // //Change stylesheet to scheme1
-  // $('.scheme1').click(function(){
-  //   $('link[href="007.css"]').attr('href', 'scheme1.css')
-  // });
-
-
+  //Changes schemes
   $('.schemeBoxes').click(function(){
     if ($(this).is(':checked')){
       $('link[href]#changeScheme').attr('href', this.name + '.css')
