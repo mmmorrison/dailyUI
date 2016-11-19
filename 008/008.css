@@ -1,3 +1,6 @@
+body{
+  background-color: #9F2042;
+}
 .first,
 .second,
 .third
@@ -7,6 +10,9 @@
   margin-top: 10%;
   top: 50%;
   left: 50%;
+  color: #D10000;
+  text-shadow: -10px 0 #3E000C, 0 1px #3E000C, 1px 0 #3E000C, 0 -1px #3E000C;
+
   /*visibility: hidden;*/
 }
 .page{
@@ -15,14 +21,20 @@
   /*visibility: hidden;*/
 }
 .first{
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
 }
 .second{
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
 }
 .third{
-  -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+}
+h1{
+  font-size: 15em;
+}
+h4{
+  
 }
