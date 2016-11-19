@@ -62,3 +62,7 @@ a:hover {
     margin: 0 auto;
     display: inline-block;
 }
+.btn, .btn-defualt{
+  background-color: #A4D4B4;
+  border-color: #A4D4B4;
+}
