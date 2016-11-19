@@ -1,8 +1,82 @@
 body{
     background-color: #C6C5B9;
-    /*#310A31
+    /*
     #62929E
     #4A6D7C
     #475657*/
-
+}
+button{
+  position:relative;
+  top:50%;
+  left:45%;
+  margin-top: 5%;
+}
+.btn, .btn-defualt{
+  background-color: #310A31;
+  border-color: #310A31;
+  color: #FFFFFF;
+}
+.fontsButton{
+  margin-right: 5%;
+  position: relative;
+  left: 20%;
+}
+.colorsButton{
+  position: relative;
+  left: 55%;
+}
+.ChangeFont{
+  visibility: hidden;
+  margin-top: 5%;
+  margin-right: 7%;
+  display: inline-block;
+  width: 45%;
+}
+.ChangeColor{
+  visibility: hidden;
+  margin-top: 2%;
+  display: inline-block;
+  width: 35%;
+}
+.colorTypes{
+  width: 45%;
+  margin-top: 5%;
+  position: relative;
+  top: 60%;
+  left: 30%;
+}
+.fontTypes{
+  width: 55%;
+  height: 50%;
+  margin-top: 5%;
+  position: relative;
+  top: 70%;
+  left: 30%;
+}
+ul{
+  list-style: none;
+}
+.indie{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.6em;
+}
+.ranga{
+  font-family: 'Ranga', cursive;
+  font-size: 1.6em;
+}
+.ravi{
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 1.6em;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+}
+.cormorant{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6em;
+}
+.colorScheme{
+  font-weight: lighter;
+  font-size: 1.5em;
 }
