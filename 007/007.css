@@ -83,3 +83,15 @@ button:hover,
     outline:0 !important;
     -webkit-appearance:none;
 }
+.navbar-fixed-bottom{
+  text-align: center;
+}
+a.home{
+  text-decoration: none;
+  color: #777;
+  margin-top: 10%;
+  padding-top: 10%;
+}
+a.home:hover{
+  color: #000000;
+}
