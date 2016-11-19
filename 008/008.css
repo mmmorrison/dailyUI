@@ -1,3 +1,28 @@
-#four0four{
-  visibility: hidden;
+.first,
+.second,
+.third
+{
+  text-align: center;
+  display: inline-block;
+  margin-top: 10%;
+  top: 50%;
+  left: 50%;
+  /*visibility: hidden;*/
+}
+.page{
+  display: block;
+  text-align: center;
+  /*visibility: hidden;*/
+}
+.first{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+}
+.second{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+}
+.third{
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 4s;
 }
