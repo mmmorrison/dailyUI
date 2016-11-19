@@ -32,10 +32,10 @@ $(document).ready(function(){
     }
   });
 
-  //Change stylesheet to scheme1
-  $('.scheme1').click(function(){
-    $('link[href="007.css"]').attr('href', 'scheme1.css')
-  });
+  // //Change stylesheet to scheme1
+  // $('.scheme1').click(function(){
+  //   $('link[href="007.css"]').attr('href', 'scheme1.css')
+  // });
 
 
   $('.schemeBoxes').click(function(){
