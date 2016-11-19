@@ -1,66 +1,65 @@
 body {
-    background-color: #A4D4B4;
-    /*padding-top: 10%;*/
-    font-family: 'Abril Fatface', cursive;
+  background-color: #A4D4B4;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .formDiv {
-    background-color: #3B1C32;
-    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
-    margin: 0 auto;
-    border-radius: 5px;
-    max-width: 60%;
-    padding: 40px;
-    margin: 40px auto;
+  background-color: #3B1C32;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width: 60%;
+  padding: 40px;
+  margin: 40px auto;
 }
 
 form {
-    margin: 0 auto;
-    max-width: 30%;
+  margin: 0 auto;
+  max-width: 30%;
 }
 
 .links {
-    width: 75%;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
 
 a {
-    display: inline-block;
-    padding-bottom: 2%;
-    color: #ffffff;
-    transition: background-color .5s ease;
-    background-color: #A4D4B4;
+  display: inline-block;
+  padding-bottom: 2%;
+  color: #ffffff;
+  transition: background-color .5s ease;
+  background-color: #A4D4B4;
 }
 
 a:hover {
-    background-color: #1C3A13;
-    color: #ffffff;
+  background-color: #1C3A13;
+  color: #ffffff;
 }
 
 #signUp {
-    text-align: center;
-    width: 48%;
-    font-size: 1.3em;
-    text-decoration: none;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    margin: 0 auto;
+  text-align: center;
+  width: 48%;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  margin: 0 auto;
 }
 
 #logIn {
-    text-align: center;
-    width: 48%;
-    font-size: 1.3em;
-    text-decoration: none;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    margin: 0 auto;
-    display: inline-block;
+  text-align: center;
+  width: 48%;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  margin: 0 auto;
+  display: inline-block;
 }
 .btn, .btn-defualt{
   background-color: #A4D4B4;

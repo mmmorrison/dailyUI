@@ -1,7 +1,7 @@
 body{
   box-sizing: border-box;
   font-family: monospace;
-  color: #696969;
+  color: #EECD88;
   background: linear-gradient(100deg, #7A3E48, #EECD86);
 }
 
@@ -65,4 +65,17 @@ input{
 
 #cvv{
   width: 100px;
+}
+.navbar-fixed-bottom{
+  text-align: center;
+  padding-top: 1%;
+  background: linear-gradient(100deg, #7A3E48, #EECD86);
+  border-color: #EECD86;
+}
+a.home{
+  text-decoration: none;
+  color: #EECD88;
+}
+a.home:hover{
+  color: #000000;
 }
