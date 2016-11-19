@@ -23,7 +23,7 @@ body {
 
 .controls {
     position: relative;
-    top: 85%;
+    top: 75%;
     left: 20%;
 }
 
@@ -31,7 +31,16 @@ img {
     width: 10%;
     height: 20%;
     margin-right: 2%;
-    /*position: relative;
-    top: 90%;
-    left: 40%;*/
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    /*display: inline-block;*/
+    /*position: fixed;*/
+}
+
+.albumArt {
+    position: relative;
+    top: 75%;
+    left: 30%;
 }
