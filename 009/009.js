@@ -15,3 +15,7 @@ var albumInfo = [{
  artist: 'The Doors',
  albums: 'An American Prayer'
 }]
+
+albumInfo.forEach(function(cover) {
+
+})
