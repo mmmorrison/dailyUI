@@ -17,5 +17,5 @@ var albumInfo = [{
 }]
 
 albumInfo.forEach(function(cover) {
-
-})
+ document.getElementById('cover').css("img src=" + cover).append('.albumArt');
+});
