@@ -16,17 +16,10 @@ var albumInfo = [{
  albums: 'An American Prayer'
 }]
 
-//
-// $(document).ready(function(){
-//    $('.albumInfo').each(function(){
-//        $(this).append($('<img>').attr("src"));
-//
-//    });
-// });
 
 $(document).ready(function() {
   albumInfo.forEach(function(albumInfo) {
-    $('.albumArt').append('<img>').attr('src')
+    $('.albumArt').append("<img src>")
 
 
   })
