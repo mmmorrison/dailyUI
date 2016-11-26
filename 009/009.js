@@ -1,17 +1,17 @@
 var albumInfo = [{
- cover: 'oasis_beherenow.jpg',
+ cover: 'albums/oasis_beherenow.jpg',
  artist: 'Oasis',
  album: 'Be Here Now'
 }, {
- cover: 'sade_thebestofsade.jpg',
+ cover: 'albums/sade_thebestofsade.jpg',
  artist: 'Sade',
  album: 'The Best of Sade'
 }, {
- cover: 'thebeatles_meetthebeatles.jpg',
+ cover: 'albums/thebeatles_meetthebeatles.jpg',
  artist: 'The Beatles',
  album: 'Meet The Beatles'
 }, {
- cover: 'thedoors_anamericanprayer.jpg',
+ cover: 'albums/thedoors_anamericanprayer.jpg',
  artist: 'The Doors',
  albums: 'An American Prayer'
 }]
@@ -27,5 +27,8 @@ var albumInfo = [{
 // })
 
 $(document).ready(function() {
-  $('img#cover').attr('src', albumInfo[0].cover)
-})
+  $('img#cover').attr('src', albumInfo[0].cover);
+  $('#artist').append('Artist: ' + albumInfo[0].artist);
+  $('#album').append('Album: ' + albumInfo[0].album);
+  
+});
