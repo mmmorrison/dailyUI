@@ -17,10 +17,15 @@ var albumInfo = [{
 }]
 
 
+// $(document).ready(function() {
+//   albumInfo.forEach(function(albumInfo) {
+//     $('.albumArt').append("<img>");
+//     $('img').attr('src')
+//     $('#artist').append(albumInfo.artist);
+//     $('#album').append(albumInfo.album)
+//   })
+// })
+
 $(document).ready(function() {
-  albumInfo.forEach(function(albumInfo) {
-    $('.albumArt').append("<img src>")
-
-
-  })
+  $('img#cover').attr('src', albumInfo[0].cover)
 })
