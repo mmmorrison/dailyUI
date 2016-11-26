@@ -16,6 +16,18 @@ var albumInfo = [{
  albums: 'An American Prayer'
 }]
 
-albumInfo.forEach(function(cover) {
- document.getElementById('cover').css("img src=" + cover).append('.albumArt');
-});
+//
+// $(document).ready(function(){
+//    $('.albumInfo').each(function(){
+//        $(this).append($('<img>').attr("src"));
+//
+//    });
+// });
+
+$(document).ready(function() {
+  albumInfo.forEach(function(albumInfo) {
+    $('.albumArt').append('<img>').attr('src')
+
+
+  })
+})
