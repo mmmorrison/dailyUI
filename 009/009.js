@@ -17,18 +17,16 @@ var albumInfo = [{
 }]
 
 
-// $(document).ready(function() {
-//   albumInfo.forEach(function(albumInfo) {
-//     $('.albumArt').append("<img>");
-//     $('img').attr('src')
-//     $('#artist').append(albumInfo.artist);
-//     $('#album').append(albumInfo.album)
-//   })
-// })
-
 $(document).ready(function() {
   $('img#cover').attr('src', albumInfo[0].cover);
   $('#artist').append('Artist: ' + albumInfo[0].artist);
   $('#album').append('Album: ' + albumInfo[0].album);
-  
+
+  $('#next').click(function() {
+    $('img#cover').attr('src', albumInfo[1].cover);
+    $('#artist').html("").append('Artist: ' + albumInfo[1].artist);
+    $('#album').html("").append('Album: ' + albumInfo[1].album);
+  })
+
+
 });
