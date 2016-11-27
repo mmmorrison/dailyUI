@@ -14,7 +14,11 @@ var albumInfo = [{
  cover: 'albums/thedoors_anamericanprayer.jpg',
  artist: 'The Doors',
  albums: 'An American Prayer'
-}]
+}];
+
+function NextAlbum() {
+  // TODO: click next button return next album in nested array (albumInfo)
+}
 
 
 $(document).ready(function() {
@@ -26,6 +30,13 @@ $(document).ready(function() {
     $('img#cover').attr('src', albumInfo[1].cover);
     $('#artist').html("").append('Artist: ' + albumInfo[1].artist);
     $('#album').html("").append('Album: ' + albumInfo[1].album);
+  });
+
+  $('#previous').click(function() {
+    for (var i = 0; i < albumInfo.length; i++) {
+
+      $('img#cover').html("").attr('scr', albumInfo[i])
+    }
   })
 
 
