@@ -19,7 +19,10 @@ body {
 }
 
 .fa {
-    color: #000000;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 10%;
+
 }
 
 #social-ln:hover {
@@ -49,6 +52,11 @@ body {
 #social-tw:hover{
   color: #0082B2;
 }
+
 #social-sl:hover{
   color: #2AB27B;
+}
+
+#social-sh:hover{
+  color: red;
 }
