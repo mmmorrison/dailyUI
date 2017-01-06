@@ -21,8 +21,10 @@ body {
 .fa {
   color: #000000;
   border: 1px solid black;
-  border-radius: 20%;
-  padding: 2%;
+  border-radius: 15%;
+  padding: 1%;
+  height: 9vh;
+  width: 8vw;
 
 }
 
