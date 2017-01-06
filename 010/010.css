@@ -25,7 +25,6 @@ body {
   padding: 1%;
   height: 9vh;
   width: 8vw;
-
 }
 
 #social-ln:hover {
@@ -79,4 +78,8 @@ body {
 #social-rd:hover{
   color: #CEE3F8;
   border: 1px solid #CEE3F8;
+}
+#social-pi:hover{
+  color: #BB0F23;
+  border: 1px solid #BB0F23;
 }
