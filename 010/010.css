@@ -42,9 +42,13 @@ body {
     color: #006400;
 }
 
-#social-cp {
+#social-cp:hover {
     color: #000000;
 }
 
-
+#social-tw:hover{
+  color: #0082B2;
+}
+#social-sl:hover{
+  color: #2AB27B;
 }
