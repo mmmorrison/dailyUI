@@ -29,41 +29,54 @@ body {
 }
 
 #social-ln:hover {
-    color: #0077B5;
+  color: #0077B5;
+  border: 1px solid #0077b5;
 }
 
 #social-fb:hover {
-    color: #4078C0;
+  color: #4078C0;
+  border: 1px solid #4078C0;
+
 }
 
 #social-gp:hover {
-    color: #d34836;
+  color: #D34836;
+  border: 1px solid #D34836;
+
 }
 
 #social-em:hover {
-    color: #f39c12;
+ color: #f39c12;
+ border: 1px solid #f39c12;
+
 }
 
 #social-ffc:hover {
-    color: #006400;
+  color: #006400;
+  border: 1px solid #006400;
 }
 
 #social-cp:hover {
-    color: #000000;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 #social-tw:hover{
   color: #0082B2;
+  border: 1px solid #0082B2;
 }
 
 #social-sl:hover{
   color: #2AB27B;
+  border: 1px solid #2AB27B;
 }
 
 #social-sh:hover{
-  color: red;
+  color: #D7AE00;
+  border: 1px solid #D7AE00;
 }
 
 #social-rd:hover{
   color: #CEE3F8;
+  border: 1px solid #CEE3F8;
 }
