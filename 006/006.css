@@ -12,10 +12,10 @@ hr{
   border-color: #65002D;
 }
 .left{
-  height: 100vh;
+  height: 50vh;
 }
 .right{
-  height: 100vh;
+  height: 50vh;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -37,4 +37,8 @@ img:before{
   width: 200px;
   height: 200px;
   pointer-events: none;
+}
+.navbar{
+  background-color: #730027;
+  border-color: #730027;
 }
