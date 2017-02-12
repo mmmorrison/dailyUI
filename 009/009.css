@@ -18,7 +18,7 @@ body {
 
 .credits {
     font-size: .5em;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
 }
 
 .controls {
@@ -61,8 +61,4 @@ p {
 .navbar{
   background-color: #6B0035;
   border-color: #6B0035;
-}
-
-.navbar a{
-  border: 1px solid black;
 }
