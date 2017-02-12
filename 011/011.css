@@ -2,21 +2,23 @@ body{
   font-family: 'Sansita', sans-serif;
   letter-spacing: 3px;
   background-color: #3E1D2C;
+  color: ;
 }
 
 nav{
   background-color: #E9670F;
   height: 10%;
   margin-top: 0;
+  margin-bottom: 10%;
 }
 h3{
   margin: 0;
   padding: 1px 0 1px 0;
-  /*font-size: .4em;*/
+  font-size: 1em;
 }
 
 .buttonHolder{
-  margin-top: 5%;
+  margin-top: 15%;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,10 +28,11 @@ h3{
   height: 40px;
   position: relative;
   text-align: center;
-  visibility: hidden;
-
+  display: none;
   -webkit-animation: sk-rotate 2.0s infinite linear;
   animation: sk-rotate 2.0s infinite linear;
+  margin-top: 15%;
+
 }
 
 .dot1, .dot2 {
@@ -38,7 +41,7 @@ h3{
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #333;
+  background-color: #D9D4A9;
   border-radius: 100%;
 
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
@@ -68,4 +71,9 @@ h3{
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+.message{
+  display: none;
+  margin-top: 15%;
 }
