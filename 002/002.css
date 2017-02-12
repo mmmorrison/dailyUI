@@ -70,7 +70,7 @@ input{
   text-align: center;
   padding-top: 1%;
   background: linear-gradient(100deg, #7A3E48, #EECD86);
-  border-color: #EECD86;
+  border: 0;
 }
 a.home{
   text-decoration: none;

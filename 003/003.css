@@ -123,7 +123,7 @@ i:hover{
 .navbar-fixed-bottom{
   text-align: center;
   padding-top: 1%;
-  border-color: #ADEEE3;
+  border-color: none;
   margin-top: 5%;
 }
 a.home{
