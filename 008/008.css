@@ -1,7 +1,6 @@
 body{
   background-color: #9F2042;
   font-family: 'Audiowide', cursive;
-  /*font-weight: lighter;*/
 }
 .first,
 .second,
@@ -46,7 +45,6 @@ body{
 h1{
   font-size: 15em;
   text-shadow: -10px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
-
 }
 h4{
   color: #700548;
@@ -57,5 +55,12 @@ h5{
   color: #EA1744;
   text-shadow: -3px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
   font-size: 1.4em;
+}
+.navbar{
+  background-color: #9F2042;
+  border-color: #9F2042;
+}
 
+.navbar a{
+  color: #D10000;
 }
