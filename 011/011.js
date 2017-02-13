@@ -9,8 +9,8 @@ $(document).ready(function () {
       $('.message').hide().eq(random).show();
       if ($('.message').hasClass('success')) {
         $("body").css("background", '#728F81');
-      } else if ($(this).hasClass('fail')){
-        $("body").css("background", 'red');
+      } else if ($('.message').hasClass('fail')){
+        $("body").css("color", 'red');
       }
     })
   })
