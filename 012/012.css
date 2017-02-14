@@ -1,6 +1,5 @@
 body{
   font-family: 'Pacifico', cursive;
-
 }
 
 .row {
@@ -12,6 +11,11 @@ body{
   padding: 1em;
   border: solid;
   font-family: 'Open Sans', sans-serif;
+}
+
+.pic{
+  padding-left: 5%;
+  background-color: #5B5B66;
 }
 
 .navbar a{
