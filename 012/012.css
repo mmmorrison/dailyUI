@@ -13,3 +13,7 @@ body{
   border: solid;
   font-family: 'Open Sans', sans-serif;
 }
+
+.navbar a{
+  color: #000000;
+}
