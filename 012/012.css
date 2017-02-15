@@ -10,20 +10,15 @@ body{
 .col {
   flex: 1;
   padding: 1em;
-  /*border: solid;*/
   font-family: 'Open Sans', sans-serif;
 }
 
 .pic{
   background-color: #519872;
-  /*min-width: 60%;*/
-  /*max-width: 60%;*/
 }
 
 .info{
   background-color: #FFFFFF;
-  /*min-width: 60%;*/
-  /*max-width: 60%;*/
 }
 
 .centered {
@@ -31,15 +26,11 @@ body{
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
   margin: 0 auto;
   border-radius: 10px;
-  /*min-width: 60%;*/
-  max-width: 60%;
-  padding: 40px;
-  margin: 40px auto;
   display: flex;
   align-items: center;
-  width: 95%;
+  width: 70%;
+  height: 550px;
 }
-
 
 .navbar a{
   color: #000000;
