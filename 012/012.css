@@ -1,6 +1,5 @@
 /* COLOR PALETTE
   #A4B494
-  #BEC5AD
   #3B5249
   #519872
   #103900
@@ -22,11 +21,8 @@ body{
 }
 
 .pic{
-  background-color: #519872;
-  padding: 20px;
+  padding-right: 20px;
 }
-
-
 
 .info{
   background-color: #FFFFFF;
@@ -50,9 +46,10 @@ body{
 
 .navbar{
   padding-top: 1%;
+  background-color: #519872;
+  border-color: #519872;
 }
 
 .navbar a{
   color: #000000;
-
 }
