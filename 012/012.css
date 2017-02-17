@@ -18,16 +18,23 @@ body{
 
 .col {
   flex: 1;
-  /*padding: 1em;*/
   font-family: 'Open Sans', sans-serif;
 }
 
 .pic{
   background-color: #519872;
+  padding-right: 1%;
+}
+
+.pic img{
+  border: 1px solid red;
+  height: 35vh;
 }
 
 .info{
   background-color: #FFFFFF;
+  width: 50vw;
+  font-size: .5em;
 }
 
 .centered {
@@ -36,6 +43,7 @@ body{
   margin: 0 auto;
   border-radius: 10px;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 70%;
   height: 550px;
@@ -44,3 +52,16 @@ body{
 .navbar a{
   color: #000000;
 }
+
+/*#wrap {
+    background: #e7e7e7;
+    display: flex;
+
+    padding: 40px;
+    width: 600px;
+}
+
+#left, #right {
+    background: #ccc;
+    padding: 20px;
+}*/
