@@ -48,6 +48,11 @@ body{
   width: 65vw;
 }
 
+.navbar{
+  padding-top: 1%;
+}
+
 .navbar a{
   color: #000000;
+
 }
