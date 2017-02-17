@@ -23,18 +23,15 @@ body{
 
 .pic{
   background-color: #519872;
-  /*padding-right: 1%;*/
+  padding: 20px;
 }
 
-.pic img{
-  /*border: 1px solid red;*/
-  /*height: 35vh;*/
-}
+
 
 .info{
   background-color: #FFFFFF;
-  /*width: 50vw;*/
   font-size: .5em;
+  padding: 20px;
 }
 
 .centered {
@@ -54,15 +51,3 @@ body{
 .navbar a{
   color: #000000;
 }
-
-/*#wrap {
-    background: #e7e7e7;
-    display: flex;
-
-
-}
-
-#left, #right {
-    background: #ccc;
-    padding: 20px;
-}*/
