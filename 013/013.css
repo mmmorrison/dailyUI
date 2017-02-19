@@ -1,3 +1,12 @@
+/*COLOR PALETTE
+#FE886E
+#050505
+#343330
+#0081AF
+#DDDBCB
+*/
+
+
 body{
   font-family: 'Sansita', sans-serif;
   /*font-family: 'Open Sans', sans-serif;*/
@@ -5,9 +14,19 @@ body{
 
 .main{
   border: 1px solid #AAAAAA;
-  width: 60%;
-  /*display: flex;*/
+  width: 30%;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  margin: 0 auto;
   justify-content: center;
+  align-items: center;
+  /*width: 70%;*/
+  height: 80vh;
+  /*padding: 40px;*/
+}
+
+.convo{
+  background-color: #FE886E;
+  height: 10vh;
 }
 
 .person1{
@@ -26,9 +45,4 @@ body{
   margin-bottom: 5%;
   width: 50%;
   clear: right;
-}
-
-.convo{
-  background-color: #FE886E;
-  height: 10vh;
 }
