@@ -77,3 +77,8 @@ h3{
   display: none;
   margin-top: 15%;
 }
+
+.navbar{
+  background-color: #3E1D2C;
+  border-color: #3E1D2C;
+}
