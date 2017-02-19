@@ -31,8 +31,19 @@ body{
   border-radius: 20px;
 }
 
-.options{
+ul{
+  list-style: none;
+  padding-left: 25%;
+
+}
+
+.info li {
+  text-align: left;
   font-size: .5em;
+
+}
+
+.options{
   height: 10vh;
   border-top: 1px solid #AAAAAA;
   margin-top: 15%;
