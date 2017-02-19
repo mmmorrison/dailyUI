@@ -28,9 +28,17 @@ body{
   padding-left: 5%;
 }
 
+.info p.price{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-right: 15%;
+  margin: 5% 0 2% 0;
+}
+
 ul.description {
   list-style: circle;
-  padding-left: 25%;
+  padding-left: 35%;
   text-align: center;
 }
 
@@ -40,21 +48,23 @@ ul.description {
 }
 
 .options{
-  height: 10vh;
+  height: 9vh;
   border-top: 1px solid #AAAAAA;
-  margin-top: 15%;
+  margin-top: 5%;
   padding-top: 10%;
 }
 
-.flexSize{
+.flexSize p{
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 2.5vw;
   display: inline-flex;
-  flex-direction: row;
+  padding-left: 3%;
 }
 
-.flexSize ul{
-  list-style: none;
+.sizes{
+  margin-top: 2%;
 }
-
 .centered {
   background-color: #103900;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
@@ -64,7 +74,7 @@ ul.description {
   justify-content: center;
   align-items: center;
   width: 70%;
-  height: 85vh;
+  height: 80vh;
   padding: 40px;
   width: 65vw;
 }
