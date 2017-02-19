@@ -59,9 +59,12 @@ ul.description {
   border-radius: 5px;
   border-color: #103900;
   width: 2.5vw;
+  height: 4vh;
   display: inline-flex;
   padding-left: 3%;
+  padding-top: 1%;
   color: #103900;
+  margin-right: 4%;
 }
 
 .sizes{
