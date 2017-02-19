@@ -2,3 +2,33 @@ body{
   font-family: 'Sansita', sans-serif;
   /*font-family: 'Open Sans', sans-serif;*/
 }
+
+.main{
+  border: 1px solid #AAAAAA;
+  width: 60%;
+  /*display: flex;*/
+  justify-content: center;
+}
+
+.person1{
+  border: 1px solid red;
+  background-color: #FE886E;
+  float: right;
+  border-radius: 5px;
+  margin: 5% 0 5% 0;
+  width: 50%;
+}
+
+.person2{
+  border: 1px solid green;
+  background-color: #EBEAEF
+  border-radius: 5px;
+  margin-bottom: 5%;
+  width: 50%;
+  clear: right;
+}
+
+.convo{
+  background-color: #FE886E;
+  height: 10vh;
+}
