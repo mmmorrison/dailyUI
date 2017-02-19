@@ -57,9 +57,11 @@ ul.description {
 .flexSize p{
   border: 1px solid #000000;
   border-radius: 5px;
+  border-color: #103900;
   width: 2.5vw;
   display: inline-flex;
   padding-left: 3%;
+  color: #103900;
 }
 
 .sizes{
@@ -96,4 +98,17 @@ ul.description {
 
 img{
   border-radius: 10px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #FFFFFF;
+  background-color: #3B5249;
+  border-color: #3B5249;
+}
+
+.btn-warning{
+  color: #103900;
 }
