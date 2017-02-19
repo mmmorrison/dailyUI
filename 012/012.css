@@ -64,3 +64,8 @@ body{
 .navbar a{
   color: #000000;
 }
+
+.smallPic{
+  width: 5;
+  height: 10vh;
+}
