@@ -12,9 +12,17 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+.main{
+  width: 90%;
+}
+
 .morePics{
   margin-top: 5%;
   width: 10wh;
+}
+
+.morePics img{
+  margin-right: 1%;
 }
 
 .info{
@@ -81,7 +89,6 @@ ul.description {
   width: 70%;
   height: 80vh;
   padding: 40px;
-  width: 65vw;
 }
 
 .navbar{
@@ -95,7 +102,6 @@ ul.description {
 }
 
 .smallPic{
-  width: 5;
   height: 10vh;
 }
 
