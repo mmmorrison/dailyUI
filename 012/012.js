@@ -1,3 +1,5 @@
 $(document).ready(function () {
-  console.log('wired up');
+  $('.smallPic').click(function () {
+    $('.main').attr('src', $(this).attr('src').replace('smallPic', 'main'))
+  })
 })
