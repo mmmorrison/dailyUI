@@ -1,4 +1,5 @@
 function getTimeRemaining(endtime) {
+  console.log('eot2h');
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -23,6 +24,7 @@ function initializeClock(id, endtime) {
   var test = clock.querySelector('.test')
 
   function updateClock() {
+    console.log('woteh2fwo4h');
     var t = getTimeRemaining(endtime);
 
     daysSpan.innerHTML = t.days;
