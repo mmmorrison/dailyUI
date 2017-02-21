@@ -1,0 +1,66 @@
+body{
+	text-align: center;
+	background: #BD784A;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #F8F4E8;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+	text-decoration: none;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #F8F4E8;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #30A4AC;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #5873B6;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#diamond-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid #F8F4E8;
+	position: relative;
+	top: 80px;
+	left: 45%;
+}
+
+#diamond-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid #F8F4E8;
+
+}
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+}
