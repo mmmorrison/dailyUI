@@ -1,9 +1,13 @@
 .outer{
   border: 1px solid black;
+  height: 20vh;
+  width: 10vw;
+  margin: auto;
 }
 
 .inner{
   border: 1px solid red;
   height: 10vh;
   width: 5vw;
+  margin: auto;
 }
