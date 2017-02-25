@@ -20,6 +20,7 @@ h2{
 
 .main{
   border: 1px solid #AAAAAA;
+  border-radius: 20px;
   width: 70%;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
   margin: 0 auto;
@@ -31,6 +32,9 @@ h2{
 .convo{
   background-color: #FE886E;
   height: 10vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
 }
 
 .person1{
