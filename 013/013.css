@@ -54,13 +54,20 @@ h2{
   height: 5vh;
   border-radius: 50px;
   display: inline;
-  /*border: 1px solid purple;*/
+}
+
+.icon1{
+  float: right;
+  clear: both;
+  width: 3vw;
+  position: relative;
+  bottom: 60px;
+  margin-right: 2%;
 }
 
 .icon2{
   float: left;
   width: 3vw;
-  /*height: 5vh;*/
   position: relative;
   bottom: 65px;
   margin-left: 2%;
