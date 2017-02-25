@@ -10,7 +10,6 @@
 body{
   font-family: 'Sansita', sans-serif;
   background-color: #050505;
-  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 h2{
@@ -39,12 +38,13 @@ h2{
 }
 
 .person1{
-  border: 1px solid red;
   background-color: #FE886E;
   float: right;
   border-radius: 5px;
   margin: 5% 0 5% 0;
   width: 50%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .icon{
@@ -53,12 +53,13 @@ h2{
 }
 
 .person2{
-  border: 1px solid green;
-  background-color: #EBEAEF
+  background-color: #DDDBCB
   border-radius: 5px;
   margin-bottom: 5%;
   width: 50%;
   clear: right;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .navbar{
