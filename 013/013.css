@@ -19,7 +19,6 @@ h2{
 .display{
   width: 50vw;
   margin: 0 auto;
-  /*background-color: #DDDBCB;*/
 }
 
 .main{
@@ -41,7 +40,11 @@ h2{
   background-color: #FE886E;
   float: right;
   border-radius: 5px;
-  margin: 5% 0 5% 0;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 5% 15% 5% 0;
+  padding-top: 2%;
   width: 50%;
   font-family: 'Open Sans', sans-serif;
 
@@ -50,16 +53,27 @@ h2{
 .icon{
   height: 5vh;
   border-radius: 50px;
+  display: inline;
+  border: 1px solid purple;
+  float: right;
+}
+
+.icon2{
+  border: 3px solid red;
+  float: left;
 }
 
 .person2{
-  background-color: #DDDBCB
+  background-color: #E0E0E0;
   border-radius: 5px;
-  margin-bottom: 5%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin: 5% 15% 5% 15%;
+  padding-top: 2%;
   width: 50%;
   clear: right;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .navbar{
