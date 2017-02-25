@@ -1,8 +1,6 @@
 /*COLOR PALETTE
-#FE886E
-#050505
 #343330
-#0081AF
+#
 #DDDBCB
 */
 
@@ -13,7 +11,7 @@ body{
 }
 
 h2{
-  color: #FE886E;
+  color: #0081AF;
 }
 
 .display{
@@ -89,8 +87,9 @@ h2{
 .navbar{
   background-color: #050505;
   border-color: #050505;
+  padding-top: 1.5%;
 }
 
 .navbar a {
-  color: #FE886E;
+  color: #0081AF;
 }
