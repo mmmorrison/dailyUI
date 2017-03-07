@@ -36,9 +36,11 @@ h2{
   border-top-right-radius: 10px;
 }
 
-.convo p{
-  font-size: .9em;
-  /*float: left;*/
+.leftDetails{
+  font-size: .9em !important;
+  margin-left: 4%;
+  margin-top: 4%;
+  float: left;
 }
 
 .person1{
