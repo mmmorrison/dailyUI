@@ -38,6 +38,7 @@ h2{
 
 .convo p{
   font-size: .9em;
+  /*float: left;*/
 }
 
 .person1{
