@@ -34,7 +34,10 @@ h2{
   height: 10vh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
 
+.convo p{
+  font-size: .9em;
 }
 
 .person1{
